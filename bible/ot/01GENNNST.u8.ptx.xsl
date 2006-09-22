@@ -44,7 +44,10 @@
   <xsl:variable select="''" name="wordcount"/>
   <xsl:variable select="'uncomplete'" name="metadata"/>
   <xsl:variable select="' 1.9 '" name="template_version"/>
-  <xsl:variable select="'$Revision: 1.4 $'" name="current_version"/>
+  <xsl:variable select="'$Revision: 1.5 $'" name="current_version"/>
+
+<!-- Free text field for notes -->
+<xsl:variable name="note" select="''"/>
 
 <!-- The main language of the document -->  
 <xsl:variable select="'nno'" name="mainlang"/>
