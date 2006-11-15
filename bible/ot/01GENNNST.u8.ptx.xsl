@@ -44,10 +44,10 @@
   <xsl:variable select="''" name="wordcount"/>
   <xsl:variable select="'uncomplete'" name="metadata"/>
   <xsl:variable select="' 1.9 '" name="template_version"/>
-  <xsl:variable select="'$Revision: 1.5 $'" name="current_version"/>
+  <xsl:variable select="'$Revision: 1.6 $'" name="current_version"/>
 
 <!-- Free text field for notes -->
-<xsl:variable name="note" select="''"/>
+<xsl:variable name="note" select="'Better formatted file 01GENNNST.bible.xml replaces this file.'"/>
 
 <!-- The main language of the document -->  
 <xsl:variable select="'nno'" name="mainlang"/>
@@ -110,5 +110,5 @@
 <xsl:variable name="para_ger" select="''"/>
 <xsl:variable name="para_eng" select="''"/>
 
-<xsl:include href="/usr/local/share/corp/bin/common.xsl"/>
+<xsl:include href="/usr/local/share/corp/bin/empty.xsl"/>
 </xsl:stylesheet>
