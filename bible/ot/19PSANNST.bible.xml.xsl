@@ -16,8 +16,8 @@
 
 <!-- Add the metainformation manually -->
 <!-- variable filename contains the original name of the file (from submitter)-->
-<xsl:variable name="filename" select="''"/>
-<xsl:variable name="title" select="''"/>
+<xsl:variable name="filename" select="'19PSANNST.u8.PTX'"/>
+<xsl:variable name="title" select="'Salmene'"/>
 <xsl:variable name="author1_fn" select="''"/>
 <xsl:variable name="author1_ln" select="''"/>
 <xsl:variable name="author1_gender" select="'unknown'"/>
@@ -45,7 +45,7 @@
 <xsl:variable name="ISBN" select="''"/>
 <xsl:variable name="ISSN" select="''"/>
 <xsl:variable name="place" select="''"/>
-<xsl:variable name="genre" select="''"/>
+<xsl:variable name="genre" select="'bible'"/>
 <xsl:variable name="collection" select="''"/>
 <xsl:variable name="translator_fn" select="''"/>
 <xsl:variable name="translator_ln" select="''"/>
@@ -53,13 +53,13 @@
 <xsl:variable name="translator_born" select="''"/>
 <xsl:variable name="translator_nat" select="''"/>
 <!-- select license type: free, standard or other -->
-<xsl:variable name="license_type" select="''"/>
+<xsl:variable name="license_type" select="'standard'"/>
 <xsl:variable name="sub_name" select="''"/>
 <xsl:variable name="sub_email" select="''"/>
 <xsl:variable name="wordcount" select="''"/>
 <xsl:variable name="metadata" select="'uncomplete'"/>
 <xsl:variable name="template_version" select="' 1.16 '"/>
-<xsl:variable name="current_version" select="'$Revision: 1.2 $'"/>
+<xsl:variable name="current_version" select="'$Revision: 1.3 $'"/>
 <!-- Free text field for notes -->
 <xsl:variable name="note" select="''"/>
 
