@@ -18,16 +18,16 @@
 <!-- variable filename contains the original name of the file (from submitter)-->
 <xsl:variable name="filename" select="'http://skuvla.info/skolehist/hammerfest-n.htm'"/>
 <xsl:variable name="title" select="''"/>
-<xsl:variable name="author1_fn" select="''"/>
-<xsl:variable name="author1_ln" select="''"/>
-<xsl:variable name="author1_gender" select="'unknown'"/>
+<xsl:variable name="author1_fn" select="'Ragnhild'"/>
+<xsl:variable name="author1_ln" select="'Sandøy'"/>
+<xsl:variable name="author1_gender" select="'f'"/>
 <xsl:variable name="author1_born" select="''"/>
-<xsl:variable name="author1_nat" select="''"/>
-<xsl:variable name="author2_fn" select="''"/>
-<xsl:variable name="author2_ln" select="''"/>
-<xsl:variable name="author2_gender" select="''"/>
-<xsl:variable name="author2_born" select="''"/>
-<xsl:variable name="author2_nat" select="''"/>
+<xsl:variable name="author1_nat" select="'NO'"/>
+<xsl:variable name="author2_fn" select="'Svein'"/>
+<xsl:variable name="author2_ln" select="'Lund'"/>
+<xsl:variable name="author2_gender" select="'m'"/>
+<xsl:variable name="author2_born" select="'1954'"/>
+<xsl:variable name="author2_nat" select="'NO'"/>
 <xsl:variable name="author3_fn" select="''"/>
 <xsl:variable name="author3_ln" select="''"/>
 <xsl:variable name="author3_gender" select="''"/>
