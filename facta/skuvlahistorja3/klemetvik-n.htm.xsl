@@ -16,7 +16,7 @@
 
 <!-- Add the metainformation manually -->
 <!-- variable filename contains the original name of the file (from submitter)-->
-<xsl:variable name="filename" select="'http://skuvla.info/skolehist/rungu-n.htm'"/>
+<xsl:variable name="filename" select="'http://skuvla.info/skolehist/klemetvik-n.htm'"/>
 <xsl:variable name="title" select="''"/>
 <xsl:variable name="author1_fn" select="''"/>
 <xsl:variable name="author1_ln" select="''"/>
@@ -64,7 +64,7 @@
 <xsl:variable name="note" select="''"/>
 
 <!-- The main language of the document -->
-<xsl:variable name="mainlang" select="'nno'"/>
+<xsl:variable name="mainlang" select="'eng'"/>
 
 <!-- Other languages, in case of multilingual document. -->
 <!-- Select "1" for the variable multilingual -->
