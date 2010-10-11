@@ -16,106 +16,112 @@
 
 <!-- Add the metainformation manually -->
 <!-- variable filename contains the original name of the file (from submitter)-->
-<xsl:variable name="filename" select="'Tid_for_samtale_nyn_nett.pdf'"/>
+<xsl:variable name="filename" select="''"/>
+<xsl:variable name="text_encoding" select="''"/>
 <xsl:variable name="title" select="''"/>
 <xsl:variable name="author1_fn" select="''"/>
 <xsl:variable name="author1_ln" select="''"/>
 <xsl:variable name="author1_gender" select="'unknown'"/>
-<xsl:variable name="author1_born" select="''"/>
 <xsl:variable name="author1_nat" select="''"/>
+<xsl:variable name="author1_born" select="''"/>
 <xsl:variable name="author2_fn" select="''"/>
 <xsl:variable name="author2_ln" select="''"/>
 <xsl:variable name="author2_gender" select="''"/>
-<xsl:variable name="author2_born" select="''"/>
 <xsl:variable name="author2_nat" select="''"/>
+<xsl:variable name="author2_born" select="''"/>
 <xsl:variable name="author3_fn" select="''"/>
 <xsl:variable name="author3_ln" select="''"/>
 <xsl:variable name="author3_gender" select="''"/>
-<xsl:variable name="author3_born" select="''"/>
 <xsl:variable name="author3_nat" select="''"/>
+<xsl:variable name="author3_born" select="''"/>
 <xsl:variable name="author4_fn" select="''"/>
 <xsl:variable name="author4_ln" select="''"/>
 <xsl:variable name="author4_gender" select="''"/>
-<xsl:variable name="author4_born" select="''"/>
 <xsl:variable name="author4_nat" select="''"/>
-<xsl:variable name="translated_from" select="'nob'"/>
+<xsl:variable name="author4_born" select="''"/>
 <xsl:variable name="publisher" select="''"/>
 <xsl:variable name="publChannel" select="''"/>
 <xsl:variable name="year" select="''"/>
 <xsl:variable name="ISBN" select="''"/>
 <xsl:variable name="ISSN" select="''"/>
-<xsl:variable name="place" select="'http://www.fug.no/cgi-bin/fug/imaker?id=27768'"/>
-<xsl:variable name="genre" select="'admin'"/>
+<xsl:variable name="place" select="''"/>
+<xsl:variable name="genre" select="''"/>
 <xsl:variable name="collection" select="''"/>
+<xsl:variable name="translated_from" select="''"/>
 <xsl:variable name="translator_fn" select="''"/>
 <xsl:variable name="translator_ln" select="''"/>
 <xsl:variable name="translator_gender" select="'unknown'"/>
 <xsl:variable name="translator_born" select="''"/>
 <xsl:variable name="translator_nat" select="''"/>
 <!-- select license type: free, standard or other -->
-<xsl:variable name="license_type" select="'free'"/>
-<xsl:variable name="sub_name" select="'Joseph Fjellgren'"/>
-<xsl:variable name="sub_email" select="'joseph.fjellgren@samediggi.no'"/>
-<xsl:variable name="wordcount" select="'4478'"/>
+<xsl:variable name="license_type" select="''"/>
+<xsl:variable name="sub_name" select="''"/>
+<xsl:variable name="sub_email" select="''"/>
+<xsl:variable name="wordcount" select="''"/>
 <xsl:variable name="metadata" select="'uncomplete'"/>
-<xsl:variable name="template_version" select="' 1.22 '"/>
-<xsl:variable name="current_version" select="'$Revision: 1.2 $'"/>
+<xsl:variable name="template_version" select="'$Revision$'"/>
+<xsl:variable name="current_version" select="'Revision'"/>
 <!-- Free text field for notes -->
 <xsl:variable name="note" select="''"/>
 
 <!-- The main language of the document -->
-<xsl:variable name="mainlang" select="'nno'"/>
+<xsl:variable name="mainlang" select="''"/>
 
 <!-- Other languages, in case of multilingual document. -->
 <!-- Select "1" for the variable multilingual -->
-<xsl:variable name="monolingual" select="'1'"/> <!--lg rec is off!-->
+<xsl:variable name="monolingual" select="''"/> <!--lg rec is off!-->
 <xsl:variable name="multilingual" select="''"/> <!--this is default-->
 
 <!-- Select the potential langugages by adding the number "1" in the -->
 <!-- selection frame. If no languages are selected, the document is -->
 <!-- checked for all the languages below. -->
+<xsl:variable name="mlang_dan" select="''"/>
+<xsl:variable name="mlang_eng" select="''"/>
+<xsl:variable name="mlang_fin" select="''"/>
+<xsl:variable name="mlang_fkv" select="''"/>
+<xsl:variable name="mlang_ger" select="''"/>
+<xsl:variable name="mlang_isl" select="''"/>
+<xsl:variable name="mlang_kal" select="''"/>
+<xsl:variable name="mlang_nno" select="''"/>
+<xsl:variable name="mlang_nob" select="''"/>
+<xsl:variable name="mlang_sma" select="''"/>
 <xsl:variable name="mlang_sme" select="''"/>
 <xsl:variable name="mlang_smj" select="''"/>
-<xsl:variable name="mlang_sma" select="''"/>
-<xsl:variable name="mlang_nob" select="''"/>
-<xsl:variable name="mlang_nno" select="''"/>
 <xsl:variable name="mlang_swe" select="''"/>
-<xsl:variable name="mlang_fin" select="''"/>
-<xsl:variable name="mlang_ger" select="''"/>
-<xsl:variable name="mlang_eng" select="''"/>
-<xsl:variable name="mlang_dan" select="''"/>
-<xsl:variable name="mlang_kal" select="''"/>
 <xsl:variable name="mlang_oth" select="''"/>
 
 <!-- If the document has parallel texts, select "1" for parallel_texts -->
 <!-- Add the locations of the parallel files to the variables-->
-<xsl:variable name="parallel_texts" select="'1'"/>
-<xsl:variable name="para_sme" select="'Tid_for_samtale_nordsamisk.pdf'"/>
-<xsl:variable name="para_smj" select="'Tid_for_samtale_lulesamisk.pdf'"/>
-<xsl:variable name="para_sma" select="'Tid_for_samtale_sorsamisk.pdf'"/>
-<xsl:variable name="para_nob" select="'Tid_for_samtale_bm_nett.pdf'"/>
-<xsl:variable name="para_nno" select="''"/>
-<xsl:variable name="para_swe" select="''"/>
-<xsl:variable name="para_fin" select="''"/>
-<xsl:variable name="para_ger" select="''"/>
-<xsl:variable name="para_eng" select="''"/>
-<xsl:variable name="para_fkv" select="''"/>
+<xsl:variable name="parallel_texts" select="''"/>
 <xsl:variable name="para_dan" select="''"/>
+<xsl:variable name="para_eng" select="''"/>
+<xsl:variable name="para_fin" select="''"/>
+<xsl:variable name="para_fkv" select="''"/>
+<xsl:variable name="para_ger" select="''"/>
+<xsl:variable name="para_isl" select="''"/>
 <xsl:variable name="para_kal" select="''"/>
+<xsl:variable name="para_nno" select="''"/>
+<xsl:variable name="para_nob" select="''"/>
+<xsl:variable name="para_sma" select="''"/>
+<xsl:variable name="para_sme" select="''"/>
+<xsl:variable name="para_smj" select="''"/>
+<xsl:variable name="para_swe" select="''"/>
 
 
 <!-- Tag the specified elements with the specified language: -->
+<xsl:variable name="danlang" select="'dan'"/>
+<xsl:variable name="englang" select="'eng'"/>
+<xsl:variable name="finlang" select="'fin'"/>
+<xsl:variable name="fkvlang" select="'fkv'"/>
+<xsl:variable name="gerlang" select="'ger'"/>
+<xsl:variable name="isllang" select="'isl'"/>
+<xsl:variable name="kallang" select="'kal'"/>
+<xsl:variable name="nnolang" select="'nno'"/>
+<xsl:variable name="noblang" select="'nob'"/>
+<xsl:variable name="smalang" select="'sma'"/>
 <xsl:variable name="smelang" select="'sme'"/>
 <xsl:variable name="smjlang" select="'smj'"/>
-<xsl:variable name="smalang" select="'sma'"/>
-<xsl:variable name="noblang" select="'nob'"/>
-<xsl:variable name="nnolang" select="'nno'"/>
 <xsl:variable name="swelang" select="'swe'"/>
-<xsl:variable name="finlang" select="'fin'"/>
-<xsl:variable name="englang" select="'eng'"/>
-<xsl:variable name="gerlang" select="'ger'"/>
-<xsl:variable name="danlang" select="'dan'"/>
-<xsl:variable name="kallang" select="'kal'"/>
 
 
 <!-- Add all paragraphs that should have xml:lang=X-->
@@ -162,9 +168,5 @@
 </xsl:element>
 </xsl:template>
 -->
-
-
-
-
 
 </xsl:stylesheet>
