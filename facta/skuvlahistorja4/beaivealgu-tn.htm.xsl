@@ -18,7 +18,6 @@
 <!-- variable filename contains the original name of the file (from submitter)-->
 <xsl:variable name="filename" select="'http://skuvla.info/skolehist/beaivealgu-tn.htm'"/>
 <xsl:variable name="title" select="'Dagen gryr'"/>
-<xsl:variable name="title" select="'Beaive-álgu'"/>
 <xsl:variable name="author1_fn" select="'Anders'"/>
 <xsl:variable name="author1_ln" select="'Larsen'"/>
 <xsl:variable name="author1_gender" select="'m'"/>
