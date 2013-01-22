@@ -91,7 +91,7 @@
 <xsl:variable name="para_isl" select="''"/>
 <xsl:variable name="para_kal" select="''"/>
 <xsl:variable name="para_nno" select="''"/>
-<xsl:variable name="para_nob" select="'Kontantstøtte.html'"/>
+<xsl:variable name="para_nob" select="'kontantstotte.html'"/>
 <xsl:variable name="para_sma" select="''"/>
 <xsl:variable name="para_sme" select="'kontantstotte.html'"/>
 <xsl:variable name="para_smj" select="''"/>
