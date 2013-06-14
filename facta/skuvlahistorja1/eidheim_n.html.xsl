@@ -9,7 +9,7 @@
   <xsl:variable name="author1_ln" select="'Eidheim'"/>
   <xsl:variable name="author1_gender" select="'m'"/>
   <xsl:variable name="author1_born" select="'1925'"/>
-  <xsl:variable name="author1_nat" select="'nor'"/>
+  <xsl:variable name="author1_nat" select="'NO'"/>
   <xsl:variable name="author2_fn" select="''"/>
   <xsl:variable name="author2_ln" select="''"/>
   <xsl:variable name="author2_gender" select="''"/>
@@ -94,8 +94,8 @@
 -->
 <!-- If the document has parallel texts, select "1" for parallel_texts -->
 <!-- Add the locations of the parallel files to the variables-->
-<xsl:variable name="parallel_texts" select="''"/>
-<xsl:variable name="para_sme" select="''"/>
+<xsl:variable name="parallel_texts" select="'1'"/>
+<xsl:variable name="para_sme" select="'eidheim_s.html'"/>
 <xsl:variable name="para_smj" select="''"/>
 <xsl:variable name="para_sma" select="''"/>
 <xsl:variable name="para_nob" select="''"/>
@@ -103,7 +103,7 @@
 <xsl:variable name="para_swe" select="''"/>
 <xsl:variable name="para_fin" select="''"/>
 <xsl:variable name="para_ger" select="''"/>
-<xsl:variable name="para_eng" select="''"/>
+<xsl:variable name="para_eng" select="'eidheim-e.htm'"/>
 
 
 </xsl:stylesheet>
