@@ -3,8 +3,8 @@
 <xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output doctype-public="-//UIT//DTD Corpus V1.0//EN" doctype-system="http://giellatekno.uit.no/dtd/corpus.dtd" encoding="UTF-8" indent="yes" method="xml" version="1.0"/>
   <!-- Add the metainformation manually -->
-  <xsl:variable name="filename" select="'eidheim_n.html'"/>
-  <xsl:variable name="title" select="'Harald Eidheim'"/>
+  <xsl:variable name="filename" select="'http://skuvla.info/skolehist/eidheim-n.htm'"/>
+  <xsl:variable name="title" select="'Kriselærar i Sápmi – opplevingar og refleksjonar'"/>
   <xsl:variable name="author1_fn" select="'Harald'"/>
   <xsl:variable name="author1_ln" select="'Eidheim'"/>
   <xsl:variable name="author1_gender" select="'m'"/>
@@ -31,7 +31,7 @@
   <xsl:variable name="year" select="'2005'"/>
   <xsl:variable name="ISBN" select="''"/>
   <xsl:variable name="ISSN" select="''"/>
-  <xsl:variable name="place" select="'http://girji.info/skolehist/eidheim-n.htm'"/>
+  <xsl:variable name="place" select="''"/>
   <xsl:variable name="genre" select="'facta'"/>
   <xsl:variable name="collection" select="''"/>
   <xsl:variable name="translator_fn" select="''"/>
@@ -95,7 +95,7 @@
 <!-- If the document has parallel texts, select "1" for parallel_texts -->
 <!-- Add the locations of the parallel files to the variables-->
 <xsl:variable name="parallel_texts" select="'1'"/>
-<xsl:variable name="para_sme" select="'eidheim_s.html'"/>
+<xsl:variable name="para_sme" select="'eidheim-s.htm'"/>
 <xsl:variable name="para_smj" select="''"/>
 <xsl:variable name="para_sma" select="''"/>
 <xsl:variable name="para_nob" select="''"/>
