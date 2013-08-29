@@ -95,7 +95,7 @@
 <xsl:variable name="para_nno" select="''"/>
 <xsl:variable name="para_nob" select="''"/>
 <xsl:variable name="para_sma" select="''"/>
-<xsl:variable name="para_sme" select="'Lahka-geassemanu-19-b-1970-almmolavuoa-birra-halddaeamis-almmolavuoalahka.html_id=420599'"/>
+<xsl:variable name="para_sme" select="'lahka-geassemanu-19-b-1970-almmolavuoa-birra-halddaeamis-almmolavuoalahka.html_id=420599'"/>
 <xsl:variable name="para_smj" select="''"/>
 <xsl:variable name="para_swe" select="''"/>
 
