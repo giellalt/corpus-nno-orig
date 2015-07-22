@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- Format query results for display -->
-
+<?xml version='1.0' encoding='UTF-8'?>
 <xsl:stylesheet
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
@@ -122,6 +119,14 @@
 <xsl:variable name="smjlang" select="'smj'"/>
 <xsl:variable name="swelang" select="'swe'"/>
 
+     Don't write the full directory; we expect the file to be in the
+     same directory as this file, with only the language code and
+     filename changed.
+     -->
+<xsl:variable name="parallels">
+	<parallel_text location="propositions-and-reports_id_657.html" xml:lang="eng"/>
+	<parallel_text location="regpubl_id_657.html" xml:lang="nob"/>
+</xsl:variable>
 
 <!-- Add all paragraphs that should have xml:lang=X-->
 <!-- Uncomment the following and add the paths, for example: -->
