@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <!-- Format query results for display --><xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output doctype-public="-//UIT//DTD Corpus V1.0//EN" doctype-system="http://giellatekno.uit.no/dtd/corpus.dtd" encoding="UTF-8" indent="yes" method="xml" version="1.0"/>
   <!-- Add the metainformation manually -->
@@ -94,8 +94,8 @@
      filename changed.
      -->
 <xsl:variable name="parallels">
-	<parallel_text location="jonar-sn.htm" xml:lang="sme"/>
-	<parallel_text location="jonar-s.htm" xml:lang="sma"/>
+	<parallel_text location="jonar-sn.html" xml:lang="sme"/>
+	<parallel_text location="jonar-s.html" xml:lang="sma"/>
 </xsl:variable>
 
 </xsl:stylesheet>

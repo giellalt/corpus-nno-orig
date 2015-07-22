@@ -1,14 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Format query results for display --><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" version="1.0">
 
-<xsl:import href="/usr/local/share/corp/bin/common.xsl"/>
-
-<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes" doctype-public="-//UIT//DTD Corpus V1.0//EN" doctype-system="http://giellatekno.uit.no/dtd/corpus.dtd"/>
+<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes" doctype-public="-//UIT//DTD Corpus V1.0//EN" doctype-system="http://giellatekno.uit.no/dtd/corpus.dtd"/> 
 
 <!-- Add the metainformation manually -->
 <!-- variable filename contains the original name of the file (from submitter)-->
-<xsl:variable name="filename" select="'albert-n.html'"/>
-<xsl:variable name="title" select="'Mellom skolen og reindrifta'"/>
+<xsl:variable name="filename" select="'http://skuvla.info/skolehist/alfred-n.htm'"/>
+<xsl:variable name="title" select="'5 år forsinka skolestart'"/>
 <xsl:variable name="author1_fn" select="'Svein'"/>
 <xsl:variable name="author1_ln" select="'Lund'"/>
 <xsl:variable name="author1_gender" select="'m'"/>
@@ -29,10 +27,10 @@
 <xsl:variable name="author4_gender" select="''"/>
 <xsl:variable name="author4_born" select="''"/>
 <xsl:variable name="author4_nat" select="''"/>
-<xsl:variable name="translated_from" select="'nno'"/>
+<xsl:variable name="translated_from" select="''"/>
 <xsl:variable name="publisher" select="''"/>
 <xsl:variable name="publChannel" select="''"/>
-<xsl:variable name="year" select="'2005'"/>
+<xsl:variable name="year" select="''"/>
 <xsl:variable name="ISBN" select="''"/>
 <xsl:variable name="ISSN" select="''"/>
 <xsl:variable name="place" select="''"/>
@@ -47,9 +45,9 @@
 <xsl:variable name="license_type" select="'free'"/>
 <xsl:variable name="sub_name" select="'Børre Gaup'"/>
 <xsl:variable name="sub_email" select="'borre.gaup@samediggi.no'"/>
-<xsl:variable name="wordcount" select="'1850'"/>
+<xsl:variable name="wordcount" select="'2442'"/>
 <xsl:variable name="metadata" select="'uncomplete'"/>
-<xsl:variable name="template_version" select="'$Revision: 31551 $'"/>
+<xsl:variable name="template_version" select="'$Revision: 32698 $'"/>
 <xsl:variable name="current_version" select="'Revision'"/>
 <!-- Free text field for notes -->
 <xsl:variable name="note" select="''"/>
@@ -85,9 +83,7 @@
      filename changed.
      -->
 <xsl:variable name="parallels">
-	<parallel_text location="albert-e.html" xml:lang="eng"/>
-	<parallel_text location="albert_s.html" xml:lang="sma"/>
-	<parallel_text location="albert-sn.html" xml:lang="sme"/>
+	<parallel_text location="alfred-s.html" xml:lang="sme"/>
 </xsl:variable>
 
 <!-- Add all paragraphs that should have xml:lang=X-->
@@ -129,7 +125,7 @@
                <xsl:with-param name="inputString" select="$text"/>
                <xsl:with-param name="target" select="'str1/str2/str3/'"/>
                <xsl:with-param name="replacement" select="'rpl1/rpl2/rpl3/'"/>
-                <xsl:with-param name="continue" select="0"/>
+                <xsl:with-param name="continue" select="0"/>	
             </xsl:call-template>
 </xsl:element>
 </xsl:template>

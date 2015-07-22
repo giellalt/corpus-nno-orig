@@ -2,13 +2,13 @@
 <!-- Format query results for display --><xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output doctype-public="-//UIT//DTD Corpus V1.0//EN" doctype-system="http://giellatekno.uit.no/dtd/corpus.dtd" encoding="UTF-8" indent="yes" method="xml" version="1.0"/>
   <!-- Add the metainformation manually -->
-  <xsl:variable name="filename" select="'ebbasofie_n.html'"/>
-  <xsl:variable name="title" select="'Sofie Kappfjell og Ebba Westerfjell:'"/>
+  <xsl:variable name="filename" select="'http://skuvla.info/skolehist/jonole-n.htm'"/>
+  <xsl:variable name="title" select="'Jon Ole Andersen - Hovudfagsensor med bare 7 års skolegang'"/>
   <xsl:variable name="author1_fn" select="'Svein'"/>
   <xsl:variable name="author1_ln" select="'Lund'"/>
   <xsl:variable name="author1_gender" select="'m'"/>
   <xsl:variable name="author1_born" select="'1951'"/>
-  <xsl:variable name="author1_nat" select="'no'"/>
+  <xsl:variable name="author1_nat" select="'NO'"/>
   <xsl:variable name="author2_fn" select="''"/>
   <xsl:variable name="author2_ln" select="''"/>
   <xsl:variable name="author2_gender" select="''"/>
@@ -24,24 +24,24 @@
   <xsl:variable name="author4_gender" select="''"/>
   <xsl:variable name="author4_born" select="''"/>
   <xsl:variable name="author4_nat" select="''"/>
-  <xsl:variable name="translated_from" select="''"/>
+  <xsl:variable name="translated_from" select="'sme'"/>
   <xsl:variable name="publisher" select="'Davvi Girji'"/>
   <xsl:variable name="publChannel" select="''"/>
   <xsl:variable name="year" select="'2005'"/>
   <xsl:variable name="ISBN" select="''"/>
   <xsl:variable name="ISSN" select="''"/>
-  <xsl:variable name="place" select="'http://girji.info/skolehist/ebbasofie-n.htm'"/>
+  <xsl:variable name="place" select="''"/>
   <xsl:variable name="genre" select="'facta'"/>
   <xsl:variable name="collection" select="''"/>
-  <xsl:variable name="translator_fn" select="''"/>
-  <xsl:variable name="translator_ln" select="''"/>
-  <xsl:variable name="translator_gender" select="'unknown'"/>
-  <xsl:variable name="translator_born" select="''"/>
-  <xsl:variable name="translator_nat" select="''"/>
+  <xsl:variable name="translator_fn" select="'Svein'"/>
+  <xsl:variable name="translator_ln" select="'Lund'"/>
+  <xsl:variable name="translator_gender" select="'m'"/>
+  <xsl:variable name="translator_born" select="'1951'"/>
+  <xsl:variable name="translator_nat" select="'NO'"/>
   <xsl:variable name="license_type" select="'free'"/>
   <xsl:variable name="sub_name" select="'Børre Gaup'"/>
   <xsl:variable name="sub_email" select="'borre.gaup@samediggi.no'"/>
-  <xsl:variable name="wordcount" select="'1454'"/>
+  <xsl:variable name="wordcount" select="'2970'"/>
   <xsl:variable name="metadata" select="'uncomplete'"/>
   <xsl:variable name="template_version" select="' 1.9 '"/>
   <xsl:variable name="current_version" select="'$Revision: 1.4 $'"/>
@@ -94,9 +94,8 @@
      filename changed.
      -->
 <xsl:variable name="parallels">
-	<parallel_text location="ebbasofie-sn.html" xml:lang="sme"/>
-	<parallel_text location="ebbasofie-s.html" xml:lang="sma"/>
-	<parallel_text location="ebbasofie-e.htm" xml:lang="eng"/>
+	<parallel_text location="jonole-s.html" xml:lang="sme"/>
+	<parallel_text location="jonole-e.html" xml:lang="eng"/>
 </xsl:variable>
 
 </xsl:stylesheet>
