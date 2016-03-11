@@ -156,7 +156,7 @@
 <xsl:variable name="parallels">
 	<parallel_text location="department-of-civil-aviation-postal-serv_id_332352.html" xml:lang="eng"/>
 	<parallel_text location="luft--post--og-teleavdelingen_id_332352.html" xml:lang="nob"/>
-	<parallel_text location="aibmo--poasta--ja-teleossodat_id_332352.html" xml:lang="sme"/>
+	<parallel_text location="" xml:lang="sme"/>
 </xsl:variable>
 >>>>>>> 59960224b4 (Norwegian Nynorsk regjeringen.no docs renamed, metadata updated in parallel files)
 

@@ -156,7 +156,7 @@
 <xsl:variable name="parallels">
 	<parallel_text location="head-of-information-ivar-torvik_id_332358.html" xml:lang="eng"/>
 	<parallel_text location="informasjonssjef-ivar-torvik_id_332358.html" xml:lang="nob"/>
-	<parallel_text location="diehtojuohkinhoavda-ivar-torvik_id_332358.html" xml:lang="sme"/>
+	<parallel_text location="" xml:lang="sme"/>
 </xsl:variable>
 >>>>>>> 59960224b4 (Norwegian Nynorsk regjeringen.no docs renamed, metadata updated in parallel files)
 

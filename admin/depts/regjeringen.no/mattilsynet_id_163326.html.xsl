@@ -156,7 +156,7 @@
 <xsl:variable name="parallels">
 	<parallel_text location="the-norwegian-food-safety-authority_id_163326.html" xml:lang="eng"/>
 	<parallel_text location="mattilsynet_id_163326.html" xml:lang="nob"/>
-	<parallel_text location="biebmobearraigeahu-mattilsynet_id_163326.html" xml:lang="sme"/>
+	<parallel_text location="" xml:lang="sme"/>
 </xsl:variable>
 >>>>>>> 59960224b4 (Norwegian Nynorsk regjeringen.no docs renamed, metadata updated in parallel files)
 
