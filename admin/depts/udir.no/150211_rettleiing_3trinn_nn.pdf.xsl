@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Format query results for display -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Format query results for display --><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
             <xsl:import href="file:///home/unhammer/.local/lib/python2.7/site-packages/CorpusTools-0.9.0b4-py2.7.egg/corpustools/xslt/common.xsl"/>
 
@@ -10,7 +9,7 @@
 
     <!-- Add the metainformation manually -->
     <!-- variable filename contains the original name of the file (from submitter)-->
-    <xsl:variable name="filename" select="'http://www.udir.no/globalassets/upload/kartleggingsprover/larerveiledninger-gs-2015/kp_lesing_3_trinn_lararrettleiing_2015_nn.pdf'"/>
+    <xsl:variable name="filename" select="'http://www.udir.no/globalassets/filer/vurdering/kartlegging/150211_rettleiing_3trinn_nn.pdf'"/>
     <xsl:variable name="text_encoding" select="''"/>
     <xsl:variable name="title" select="''"/>
     <xsl:variable name="author1_fn" select="''"/>
@@ -125,8 +124,9 @@
         <!-- <parallel_text xml:lang="smn" location=""/> -->
         <!-- <parallel_text xml:lang="sms" location=""/> -->
         <!-- <parallel_text xml:lang="swe" location=""/> -->
-    <parallel_text xml:lang="nob" location="veiledning_kp_lesing_kp_lesing_3_trinn_larerveiledning_2014_bm.pdf"/>
-	<parallel_text xml:lang="sme" location="veiledning_kp_lesing_generell_veiled_kp_lesing_3trinn_nordsamisk.pdf"/></xsl:variable>
+    <parallel_text xml:lang="nob" location="150211_veiledning_3trinn_bm.pdf"/>
+	<parallel_text xml:lang="sma" location="veiled_kp_regning_3trinn_sorsamisk.pdf"/>
+	<parallel_text xml:lang="sme" location="veiledning_kp_regning_veiledning_kp_regning_3trinn_nordsamisk.docx"/></xsl:variable>
 
 
     <!--

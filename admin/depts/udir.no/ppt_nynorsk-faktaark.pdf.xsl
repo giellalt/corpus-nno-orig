@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Format query results for display -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Format query results for display --><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
             <xsl:import href="file:///home/unhammer/.local/lib/python2.7/site-packages/CorpusTools-0.9.0b4-py2.7.egg/corpustools/xslt/common.xsl"/>
 
@@ -10,7 +9,7 @@
 
     <!-- Add the metainformation manually -->
     <!-- variable filename contains the original name of the file (from submitter)-->
-    <xsl:variable name="filename" select="'http://www.udir.no/globalassets/filer/vurdering/kartlegging/150211_rettleiing_1trinn_nn.pdf'"/>
+    <xsl:variable name="filename" select="'http://www.udir.no/globalassets/upload/pp_tjenesten/ppt_nynorsk-faktaark.pdf'"/>
     <xsl:variable name="text_encoding" select="''"/>
     <xsl:variable name="title" select="''"/>
     <xsl:variable name="author1_fn" select="''"/>
@@ -67,7 +66,7 @@
     <!-- In the case of a multilingual document, we may want to check for
          other languages. Set the variable monolingual to '1' to turn off
          language recognition (treating everything as mainlang) -->
-    <xsl:variable name="monolingual" select="''"/>
+    <xsl:variable name="monolingual" select="'1'"/>
 
     <!-- If monolingual is not set, the document is multilingual.
          Uncomment the languages you want to check for (or add new lines
@@ -95,7 +94,8 @@
         <!-- <language xml:lang="smn"/> -->
         <!-- <language xml:lang="sms"/> -->
         <!-- <language xml:lang="swe"/> -->
-    </xsl:variable>
+    <language xml:lang="nno"/>
+	<language xml:lang="nob"/></xsl:variable>
 
     <!-- If the document has parallel texts, uncomment the right languages
          (or add new lines with the right ISO-639-3 language codes) and
@@ -125,9 +125,21 @@
         <!-- <parallel_text xml:lang="smn" location=""/> -->
         <!-- <parallel_text xml:lang="sms" location=""/> -->
         <!-- <parallel_text xml:lang="swe" location=""/> -->
-    <parallel_text xml:lang="nob" location="veiledning_kp_regning_150211_veiledning_1trinn_bm.pdf"/>
-	<parallel_text xml:lang="sma" location="veiledning_kp_regning_veiled_kp_regning_1trinn_sorsamisk.pdf"/>
-	<parallel_text xml:lang="sme" location="veiledning_kp_regning_veiledning_kp_regning_1trinn_nordsamisk.pdf"/></xsl:variable>
+    <parallel_text xml:lang="ara" location="ppt_arabisk_faktaark.pdf"/>
+	<parallel_text xml:lang="ckb" location="ppt_sorani_faktaark.pdf"/>
+	<parallel_text xml:lang="eng" location="ppt_engelsk_faktaark.pdf"/>
+	<parallel_text xml:lang="fas" location="ppt_persisk_faktaark.pdf"/>
+	<parallel_text xml:lang="fra" location="ppt_fransk_faktaark.pdf"/>
+	<parallel_text xml:lang="nob" location="ppt_norsk_bokmal_faktaark.pdf"/>
+	<parallel_text xml:lang="pol" location="ppt_polsk_faktaark.pdf"/>
+	<parallel_text xml:lang="rus" location="ppt_russisk_faktaark.pdf"/>
+	<parallel_text xml:lang="sma" location="ppt_sorsamisk_faktaark.pdf"/>
+	<parallel_text xml:lang="sme" location="ppt_nordsamisk_faktaark.pdf"/>
+	<parallel_text xml:lang="smj" location="ppt_lulesamisk_faktaark.pdf"/>
+	<parallel_text xml:lang="som" location="ppt_somalisk_faktaark.pdf"/>
+	<parallel_text xml:lang="tur" location="ppt_tyrkisk_faktaark.pdf"/>
+	<parallel_text xml:lang="urd" location="ppt_urdu_faktaark.pdf"/>
+	<parallel_text xml:lang="vie" location="ppt_vietnamesisk_faktaark.pdf"/></xsl:variable>
 
 
     <!--
