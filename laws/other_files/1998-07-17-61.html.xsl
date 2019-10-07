@@ -13,7 +13,7 @@
     -->
     <xsl:variable name="filename" select="'https://lovdata.no/dokument/NL/lov/1998-07-17-61'"/>
     <xsl:variable name="text_encoding" select="''"/>
-    <xsl:variable name="title" select="''"/>
+    <xsl:variable name="title" select="'Lov om grunnskolen og den vidaregåande opplæringa (opplæringslova)'"/>
     <!--
         Information of the first author: first name, last name,
         date or year of birth, nationality.
@@ -129,7 +129,7 @@
         other languages. Set the variable monolingual to '1' to turn off
         language recognition (treating everything as mainlang)
     -->
-    <xsl:variable name="monolingual" select="''"/>
+    <xsl:variable name="monolingual" select="'1'"/>
 
     <!--
         If monolingual is not set, the document is multilingual.
