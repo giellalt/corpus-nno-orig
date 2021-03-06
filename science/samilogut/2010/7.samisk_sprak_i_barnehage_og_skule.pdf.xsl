@@ -13,7 +13,7 @@
     -->
     <xsl:variable name="filename" select="''"/>
     <xsl:variable name="text_encoding" select="''"/>
-    <xsl:variable name="title" select="'Samisk språk i barnehage og skule'"/>
+    <xsl:variable name="title" select="'Samisk språk i barnehage og skule'"/>
     <!--
         Information of the first author: first name, last name,
         date or year of birth, nationality.

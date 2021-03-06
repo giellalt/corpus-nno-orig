@@ -13,7 +13,7 @@
     -->
     <xsl:variable name="filename" select="'http://samilogutmuitalit.no/sites/default/files/publications/2kvantitative_endringar_i_den_samiske_spraksituasjonen_i_noreg.pdf'"/>
     <xsl:variable name="text_encoding" select="''"/>
-    <xsl:variable name="title" select="'Kvantitative endringar i den samiske språksituasjonen i Noreg'"/>
+    <xsl:variable name="title" select="'Kvantitative endringar i den samiske språksituasjonen i Noreg'"/>
     <!--
         Information of the first author: first name, last name,
         date or year of birth, nationality.
