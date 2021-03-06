@@ -13,7 +13,7 @@
     -->
     <xsl:variable name="filename" select="'http://samilogutmuitalit.no/sites/default/files/publications/kapittel2.alvorleg_nedgang_for_faget_samisk_som_andresprak.pdf'"/>
     <xsl:variable name="text_encoding" select="''"/>
-    <xsl:variable name="title" select="'Alvorleg nedgang for faget samisk som andrespråk'"/>
+    <xsl:variable name="title" select="'Alvorleg nedgang for faget samisk som andrespråk'"/>
     <!--
         Information of the first author: first name, last name,
         date or year of birth, nationality.
