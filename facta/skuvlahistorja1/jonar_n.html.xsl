@@ -37,7 +37,7 @@
     <xsl:variable name="author2_fn" select="'Jonar'"/>
     <xsl:variable name="author2_ln" select="'Thomasson'"/>
     <xsl:variable name="author2_gender" select="'m'"/>
-    <xsl:variable name="author2_nat" select="'nor'"/>
+    <xsl:variable name="author2_nat" select="'NO'"/>
     <xsl:variable name="author2_born" select="'1947'"/>
 
     <!--
